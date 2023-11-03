@@ -1,0 +1,124 @@
+body {
+    background-color: whitesmoke;
+}
+
+
+head {
+    height: 300px;
+background-color: whitesmoke;
+}
+
+h1 {
+    color:navy;
+font-size: 60px;
+margin: 70px;
+text-align: center;
+}
+
+.wrapper {
+  width: 100%;
+  height: 100%;
+  background-image:url(https://uplink.weforum.org/uplink/sfc/servlet.shepherd/version/renditionDownload?rendition=ORIGINAL_jpg&versionId=0682o00000XqZEwAAN);
+  background-size: cover;
+  background-position: center center;
+  border: 10px solid transparent;
+}
+
+h2 {font-size: 25px;
+color:navy;
+text-align: left;
+margin: 20px;
+}
+
+h3 {
+    color: navy;
+    font-size: 25px;
+}
+.navbar-links {
+    width: 60%;
+    font-size: 20px;
+    align-content: center;
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+margin-left: 150px;
+list-style-type: none;
+color: navy;
+}
+
+h4 {
+color: navy;
+font-size: 25px;
+
+}
+
+.my-list   {
+    list-style-type: decimal;
+    align-content: normal;
+    color: navy;
+    border: turquoise 4px double;
+    padding: 30px;
+    margin: 50px;
+    font-size: 20px;
+}
+
+
+
+img:hover {
+    opacity: 0.5;
+    cursor: pointer;
+  }
+  .hover-description {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 200px;
+    height: 100px;
+    background-color: white;
+    border: 1px solid black;
+    padding: 10px;
+  }
+  .hover-description:hover {
+    display: block;
+  }
+  
+  @media (max-width: 575.98px) {
+    .hover-description {
+      width: 100%;
+      height: auto;
+    }
+  }
+  
+
+  p {
+    padding: 10px;
+  }
+
+  .logo {
+    background-color: transparent;
+    position:fixed;
+top: 5px;
+left: 10px;
+}
+
+.banner {
+font-size: 15px;
+color: red;
+background-color: turquoise;
+}
+
+.footernav {
+  width: 60%;
+  font-size: 20px;
+  align-content: right;
+display:flex;
+justify-content: space-evenly;
+align-items: right;
+margin-left: 150px;
+list-style-type: none;
+color: navy;
+}
+
+
